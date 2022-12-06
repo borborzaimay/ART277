@@ -1,0 +1,141 @@
+
+ ul {
+                  margin:0;
+                  padding:0;
+                  overflow: hidden;
+                  list-style-type:none;
+                  background-color:green;
+            }
+          li {
+                  float:right;
+            }
+          li a {
+                  color:white;
+                  display:block;
+                  text-align:center;
+                  padding:14px 16px;
+                  text-decoration:none;
+                }
+          list a:hover {
+                         background-color:yellow;
+                        }
+
+   ul {
+                  margin:0;
+                  padding:0;
+                  overflow: hidden;
+                  list-style-type:none;
+                  background-color:green;
+            }
+          li {
+                  float:right;
+            }
+          li a {
+                  color:white;
+                  display:block;
+                  text-align:center;
+                  padding:14px 16px;
+                  text-decoration:none;
+                }
+          list a:hover {
+                         background-color:yellow;
+                        }
+
+         table {
+                 background-color:mediumseagreen;
+                 background:linear-gradient(green, white)
+                }
+        tr{
+                 border-color:black;
+                 border: 2px solid ;
+                }
+        th{
+                 border-color:black;
+                 border: 2px solid ;
+                 text-align:left;
+                }
+        td{
+                border-color:black;
+                border: 2px solid ;
+                text-align:center;
+                }
+                table, th, td { border-collapse: collapse;}
+
+      ul {
+                  margin:0;
+                  padding:0;
+                  overflow: hidden;
+                  list-style-type:none;
+                  background-color:rgb(10, 201, 10);
+            }
+          li {
+                  float:right;
+            }
+          li a {
+                  color:white;
+                  display:block;
+                  text-align:center;
+                  padding:14px 16px;
+                  text-decoration:none;
+                }
+          list a:hover {
+                         background-color:yellow;
+                        }
+
+                        * {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+   background-color:white;
+  width: 100%;
+  padding: 12px;
+  border: 0px solid ;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: rgb(9, 114, 9);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type=submit]:hover {
+  background-color: yellow;
+}
+
+.container {
+  border: 0px solid;
+  width:85%;
+  margin: 20px auto;
+  border-radius: 0px;
+  background-color:green;
+  padding: 10px;
+}
+
+.virus video{
+  padding: 15px;
+  width:300px;
+  height: 200px;
+  float: left;
+}
+
+.browser iframe{
+  float: right;
+  margin: 10px;
+}
+
+.browser{
+  <iframe width="260" height="315" src="https://www.youtube.com/embed/WpfOC2oWPAA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+}
+
+.mapouter{
+  <iframe width="900" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=monrovia,liberia&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+}
